@@ -136,4 +136,4 @@ if __name__ == '__main__':
     notion_db_id = sys.argv[3]
 
     map = get_random_image(unsplash_key)
-    create_notion_page(notion_token, notion_db_id, map, datetime.date.today())
+    create_notion_page(notion_token, notion_db_id, map, str(datetime.date.today()))
